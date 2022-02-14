@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&family=VT323&display=swap');
+
+* {
+  font-family: 'Rubik', sans-serif;
+  /* font-family: 'VT323', monospace; */
+}
+
+
+@media screen and (min-width: 600px) {
+  #mainGrid {
+    margin: 3rem;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-gap: 4rem;
+    grid-template-columns: 0.5fr 4fr;
+  }
+}
+
