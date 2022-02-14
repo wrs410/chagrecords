@@ -7,13 +7,3 @@
 }
 
 
-@media screen and (min-width: 600px) {
-  #mainGrid {
-    margin: 3rem;
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-gap: 4rem;
-    grid-template-columns: 0.5fr 4fr;
-  }
-}
-

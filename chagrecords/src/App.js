@@ -1,15 +1,23 @@
 
-import './App.css';
+import {
+  HashRouter as Router,
+  Routes as Switch,
+  Route,
+  Link
+} from 'react-router-dom';
 
-import Mainframe from './components/Mainframe.js';
-import Sidebar from './components/Sidebar.js';
+
+import './App.css';
+import Wrapper from './components/Wrapper.js'
 
 function App() {
   return (
-    <main id = "mainGrid">
-      <Sidebar />
-      <Mainframe />
-    </main>
+    <Router>
+      <Switch>
+        <Route exact path = "/" element ={<Wrapper/>}>
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
